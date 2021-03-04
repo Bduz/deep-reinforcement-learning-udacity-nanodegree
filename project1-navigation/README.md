@@ -31,7 +31,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Required packages
 
-tensorflow==1.7.1
+tensorflow==1.7.1__
 Pillow>=4.2.1
 matplotlib
 numpy>=1.11.0
