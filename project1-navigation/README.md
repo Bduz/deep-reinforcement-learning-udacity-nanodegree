@@ -49,6 +49,7 @@ unityagents
 
 The `unityagents` can be installed from [here](https://github.com/udacity/deep-reinforcement-learning/tree/master/python). The rest can be installed using `pip`.
 
-### Running the notebook `navigation.py`
+### Train the agent
 
+In order to train the agent run the notebook `navigation.ipynb` by following the instructions in it. 
 
