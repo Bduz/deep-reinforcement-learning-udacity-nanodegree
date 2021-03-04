@@ -1,14 +1,9 @@
-[//]: # (Image References)
-
-[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
 
 # Project 1: Navigation
 
 ### Introduction
 
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
-
-![Trained Agent][image1]
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
 
@@ -20,7 +15,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
-### Getting Started
+### Download the environment
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
@@ -34,9 +29,25 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
 
-### Instructions
+### Required packages
 
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
+tensorflow==1.7.1
+Pillow>=4.2.1
+matplotlib
+numpy>=1.11.0
+jupyter
+pytest>=3.2.2
+docopt
+pyyaml
+protobuf==3.5.2
+grpcio==1.11.0
+torch==0.4.0
+pandas
+scipy
+ipykernel
+unityagents
+
+The `unityagents` can be installed from [here](https://github.com/udacity/deep-reinforcement-learning/tree/master/python)
 
 ### (Optional) Challenge: Learning from Pixels
 
