@@ -45,7 +45,7 @@ The task is episodic. The barrier for solving the second version of the environm
 
 ### Instructions
 
-Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
+To set up your python environment to run the code in this repository, follow the instructions in [DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies). Afterwards, follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
 
 ### A DDPG performance
 
