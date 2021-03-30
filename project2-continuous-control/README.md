@@ -47,3 +47,8 @@ The task is episodic. The barrier for solving the second version of the environm
 
 Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
 
+### A DDPG performance
+
+The Figure below shows the average score per episode and the moving mean of the average score over the last 100 episodes. This outcome was achieved after running `Continuous_Control.ipynb`. After 179 episodes, the average score of 30.28 was obtained. 
+
+![Average score over 20 DDPG agents](performance_DDPG.png "Average score over 20 DDPG agents")
